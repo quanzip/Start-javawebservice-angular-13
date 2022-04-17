@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbtest?useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true&failOverReadOnly=false&maxReconnects=50
+    username: root
+    password:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 8083
+
+quanaqt:
+  name: Pham Hong Quanaqt
+  age: 25
+  major: IT
+
+quanzip:
+  name: Pham Hong Quanzip
+  age: 30
+  major: IT1
+
+em:
+    name: patosik
+    add: 150 lanlord street, Ontario, Canada
+
+period: 12 years
+
